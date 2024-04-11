@@ -16,7 +16,7 @@ INSERT INTO games (name, year, imgUrl) VALUES (?,?,?)
 insertGame.run(
   "Pokemon Yellow",
   2000,
-  "https://archives.bulbagarden.net/media/upload/9/95/Yellow_EN_boxart.png"
+  "https://www.ign.com/articles/1999/10/20/pokemon-yellow-special-pikachu-edition"
 );
 insertGame.run(
   "Nuclear Strike",
