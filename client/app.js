@@ -3,8 +3,8 @@ const gamesWrapper = document.getElementById("gamesWrapper");
 // get the games from my api
 async function getGames() {
   const response = await fetch(
-    //   "https://newprojectrender.onrender.com/games"
-    "http://localhost:8080/games"
+    "https://newprojectrender.onrender.com/games"
+    // "http://localhost:8080/games"
   );
   const games = await response.json();
   console.log(games);
